@@ -8,3 +8,10 @@ body {
     margin: 0;
     background-color: #0D0D0D;
 }
+#team {
+    text-decoration: underline; text-align: right; color:#F2F2F2;
+}
+
+#team:hover {
+    color: #F24130;
+}
