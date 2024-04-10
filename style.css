@@ -40,3 +40,18 @@ html {
     padding-bottom: 5%; 
     line-height: 2;
 }
+
+#aboutus {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #F2F2F2;
+}
+
+#aboutus a {
+    color:#F2F2F2;
+    text-decoration: underline;
+}
+#aboutus a:hover {
+    color:#F24130;
+}
