@@ -1,17 +1,42 @@
 #demo {
     text-align: center;
+    color:#F2F2F2;
+    padding-bottom: 5%;
 }
 #header {
     background-color: #404040;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 body {
     margin: 0;
     background-color: #0D0D0D;
 }
 #team {
-    text-decoration: underline; text-align: right; color:#F2F2F2;
+    text-decoration: underline;
+    color:#F2F2F2;
+    
 }
-
 #team:hover {
     color: #F24130;
+}
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#info {
+    color:#F2F2F2;
+    background-color: #404040;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#vandal {
+    color:#f2f2f2; 
+    margin-left: 25%; 
+    margin-right: 25%; 
+    padding-bottom: 5%; 
+    line-height: 2;
 }
